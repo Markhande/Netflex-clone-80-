@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.main {
+    background-image: url("assets/images/background.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 140vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 900;
+    gap: 10px;
+    padding: 0 23px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins';
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.hero> :nth-child(3) {
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.sepration {
+    height: 7px;
+    background-color: #232323;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-family: 'Poppins';
+    /* font-weight: bold; */
+    background-color: rgba(0, 0, 0, 0.379);
+    border: 1px solid #3d3e3f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: rgb(255 0 0);
+    color: white;
+    padding: 7px 15px 8px 14px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: BOLD;
+}
+
+::placeholder {
+    margin: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 15px;
+    color: rgba(202, 202, 202, 0.505);
+}
+
+input {
+    border: 1px solid rgba(202, 202, 202, 0.505);
+    color: white;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+
+}
+
+.btn-red-sim {
+    background-color: red;
+    color: white;
+
+}
+
+.hero-buttons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg img {
+    margin-top: 10px;
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secImg {
+    /* position: absolute; */
+    position: relative;
+}
+
+.secImg video {
+    position: absolute;
+    top: 82PX;
+    right: 65px;
+    width: 335px;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq h1 {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.faqbox span {
+    padding-top: 10px;
+    font-size: 28px;
+    padding-top: 10px;
+
+}
+
+.faq {
+    background-color: black;
+    color: white;
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 26px;
+    max-width: 73vw;
+    margin: auto;
+    margin-bottom: 9px;
+    /* font-weight: 700; */
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.faq> :hover {
+    transition: all 0.7s ease-out;
+    background-color: rgba(128, 128, 128, 0.519);
+
+}
+
+.svgpluse {
+    filter: invert(1);
+    margin-top: 10px;
+}
+
+.secImg .TV2 {
+    position: absolute;
+    top: 29PX;
+    right: 91px;
+    width: 282px;
+
+}
+
+/* .secInput{
+    margin-top: 63px;
+    height: 23px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.faq .faqbox :nth-child(6){
+    margin-bottom: 10px;
+} */
+
+.secInput {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-bottom: 36px;
+}
+
+.input2 input {
+    padding: 14px 69px 8px 9px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input2 button {
+    padding: 14px 69px 8px 9px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+.secInput p {
+    color: white;
+}
+
+footer {
+    max-width: 60vw;
+    margin: auto;
+    margin-left: 101px;
+    padding: 73px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
+
+.footer .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+footer .queston {
+    color: #868686;
+    margin-bottom: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer a {
+    /* text-decoration: none; */
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #928d85;
+    font-size: 14px;
+}
+
+footer .lang {
+    margin-top: 34px;
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 14px;
+    color: #fbfbfb;
+    background-color: #ffffff1c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.lang .option {
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+footer p {
+    color: #928d85;
+    margin-top: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.main .lang {
+    position: relative;
+    z-index: 10;
+    border-radius: 3px;
+    padding: 3px;
+    margin-right: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #0000006e;
+    color: white;
+}
+
+.main .lang option {
+    background-color: white;
+}
+
+.download{
+    display: flex;
+    background-color: black;
+    border: 1px solid #585858;
+    border-radius: 14px;
+    height: 91px;
+    width: 288px;
+    position: relative;
+    z-index: 10;
+    margin-left: -397px;
+    margin-bottom: -20px;
+    margin-top: 14px;
+}
+.download img{
+    width: 55px;
+    margin: 20px;
+    margin-left: 6px;
+    margin-top: 35px;
+}
+.downloading{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 33px;
+}
+.download .downloading span{
+    font-size: 10px;
+}
+.download .downloading .sp1 {
+    color: red;
+    font-size: 10px;
+}
+/* .first>div :nth-child(2) */
